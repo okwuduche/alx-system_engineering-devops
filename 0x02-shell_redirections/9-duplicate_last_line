@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "indicate that events have passed a point of no return." >>iacta
+tac iacta |egrep -m 1 >>iacta

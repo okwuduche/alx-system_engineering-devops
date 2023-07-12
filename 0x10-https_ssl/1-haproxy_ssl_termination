@@ -49,5 +49,5 @@ frontend manage_http_entry
 
 backend my_web_servers
 	balance static-rr
-	167388-web-01 3.84.168.177:80 check
+	server web-01 3.84.168.177:80 check
 	server web-02 100.26.159.210:80 check
